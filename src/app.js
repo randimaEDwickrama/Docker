@@ -6,7 +6,7 @@ const app = express();
 
 // Define a route handler for the default home page
 app.get('/', (req, res) => {
-  res.json({message: 'හො.ම.ත.ග.යු - හොදි​න් මතක තබා ගත යුතුයි'});
+  res.json({message: 'Testing'});
 });
 
 // Start the server on port 3000
